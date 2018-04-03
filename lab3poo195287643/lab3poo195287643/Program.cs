@@ -10,6 +10,7 @@ namespace lab3poo195287643
     {
         static void Main(string[] args)
         {
+            
         }
     }
 }
