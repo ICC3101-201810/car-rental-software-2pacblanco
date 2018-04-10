@@ -5,29 +5,32 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace lab3poo195287643
-{
+    {
     class Sucursal
     {
-        string nombresuc;
+        public string nombresuc;
         int stockmax;
-        List<Vehiculo> catalogo = new List<Vehiculo>();
+        Vehiculo[] catalogo;
         
-        public Sucursal(string nombresuc,int stockmax, List<Vehiculo> catalogo)
+        public Sucursal(string nombresuc,int stockmax, catalogo)
         {
             this.nombresuc = nombresuc;
             this.stockmax = stockmax;
-            this.catalogo = catalogo;
+            catalogo = new Vehiculo[stockmax];
           
         }
-        public void AgregarVehiculo(Vehiculo vehiculo,Sucursal sucursal)
+        public bool AgregarVehiculo(Vehiculo vehiculo,Sucursal sucursal)
         {
-            while (sucursal.stockmax > 0)
+            if (stockmax > 0)
             {
-                catalogo.Add(vehiculo);
-                sucursal.stockmax = (sucursal.stockmax - 1);
-                
+                int posicionCar= catalogo.Length - stockmax;
+                catalogo[posicionCar] = vehiculo;
+                stockmax--;
+                return true;
             }
+            else return false;
+        }
+
         }
        
-    }
-}
+ }   
