@@ -6,31 +6,37 @@ using System.Threading.Tasks;
 
 namespace lab3poo195287643
     {
-    class Sucursal
+    public class Sucursal
     {
         public string nombresuc;
         int stockmax;
         Vehiculo[] catalogo;
+     
         
-        public Sucursal(string nombresuc,int stockmax, catalogo)
+        public Sucursal(string nombresuc,int stockmax)
         {
             this.nombresuc = nombresuc;
             this.stockmax = stockmax;
-            catalogo = new Vehiculo[stockmax];
+            catalogo= new Vehiculo[stockmax];
           
         }
-        public bool AgregarVehiculo(Vehiculo vehiculo,Sucursal sucursal)
+
+        public bool AgregarAuto(Vehiculo vehiculo)
         {
-            if (stockmax > 0)
+            if (stockmax>0)
             {
-                int posicionCar= catalogo.Length - stockmax;
-                catalogo[posicionCar] = vehiculo;
-                stockmax--;
+                int posicionAuto=catalogo.Length-stockmax;
+                catalogo[posicionAuto]= vehiculo;
+                vacantes--;
                 return true;
             }
             else return false;
         }
-
+       
+        
+        public Vehiculo[] Getcatalogo()
+        {
+            return catalogo;
         }
        
- }   
+ }}  

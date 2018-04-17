@@ -1,1 +1,8 @@
 C:\Users\ING\Desktop\car-rental-software-2pacblanco-master (1)\car-rental-software-2pacblanco-master\lab3poo195287643\lab3poo195287643\obj\Debug\lab3poo195287643.csproj.CoreCompileInputs.cache
+C:\Users\ING\Desktop\car-rental-software-2pacblanco\lab3poo195287643\lab3poo195287643\obj\Debug\lab3poo195287643.csproj.CoreCompileInputs.cache
+C:\Users\ING\Desktop\car-rental-software-2pacblanco\lab3poo195287643\lab3poo195287643\bin\Debug\lab3poo195287643.exe.config
+C:\Users\ING\Desktop\car-rental-software-2pacblanco\lab3poo195287643\lab3poo195287643\bin\Debug\lab3poo195287643.exe
+C:\Users\ING\Desktop\car-rental-software-2pacblanco\lab3poo195287643\lab3poo195287643\bin\Debug\lab3poo195287643.pdb
+C:\Users\ING\Desktop\car-rental-software-2pacblanco\lab3poo195287643\lab3poo195287643\obj\Debug\lab3poo195287643.exe
+C:\Users\ING\Desktop\car-rental-software-2pacblanco\lab3poo195287643\lab3poo195287643\obj\Debug\lab3poo195287643.pdb
+C:\Users\ING\Desktop\car-rental-software-2pacblanco\lab3poo195287643\lab3poo195287643\obj\Debug\lab3poo195287643.csprojResolveAssemblyReference.cache

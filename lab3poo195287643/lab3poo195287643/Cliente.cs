@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace lab3poo195287643
 {
-    class Cliente
+    public class Cliente
     {
         string rut;
         string nombre;
@@ -26,7 +26,7 @@ namespace lab3poo195287643
             public Persona(string Licencia,string tipo,string rut, string nombre, string edad):base(rut, nombre, edad)
             {
                 this.Licencia = Licencia;
-                this.tipo = tipo;
+                this.tipo = tipo; 
             }
         }
         public class Empresa: Cliente

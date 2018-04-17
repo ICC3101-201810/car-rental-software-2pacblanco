@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace lab3poo195287643
 {
-    class Vehiculo
+    public class Vehiculo
     {
         public int precio;
         public string modelo;
@@ -82,6 +82,6 @@ namespace lab3poo195287643
             {
                 this.licenciareq = licenciareq;
                 this.patente= patente;
-                this.tipo=tipo
+                this.tipo=tipo; 
             }
         }}}}  
