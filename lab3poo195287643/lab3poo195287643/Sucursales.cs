@@ -10,14 +10,14 @@ namespace lab3poo195287643
     {
         public string nombresuc;
         int stockmax;
-        Vehiculo[] catalogo;
+        public List<Vehiculo> catalogo;
      
         
         public Sucursal(string nombresuc,int stockmax)
         {
             this.nombresuc = nombresuc;
             this.stockmax = stockmax;
-            catalogo= new Vehiculo[stockmax];
+            catalogo= new List<Vehiculo>();
           
         }
 
@@ -25,8 +25,7 @@ namespace lab3poo195287643
         {
             if (stockmax>0)
             {
-                int posicionAuto=catalogo.Length-stockmax;
-                catalogo[posicionAuto]= vehiculo;
+                catalogo.Add(vehiculo);
                 stockmax--;
                 return true;
             }
@@ -34,9 +33,4 @@ namespace lab3poo195287643
         }
        
         
-        public Vehiculo[] Getcatalogo()
-        {
-            return catalogo;
-        }
-       
  }}  

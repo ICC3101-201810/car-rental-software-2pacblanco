@@ -21,7 +21,7 @@ namespace lab3poo195287643
         public class Auto: Vehiculo
         {
             string licenciareq;
-            string patente;
+            public string patente;
 
             public Auto(string licenciareq,string patente, string modelo, int precio):base(modelo,precio)
             {
@@ -32,7 +32,7 @@ namespace lab3poo195287643
          public class Acuatico: Vehiculo
         {
             string licenciareq;
-            string patente;
+            public string patente;
 
             public Acuatico(string licenciareq,string patente, string modelo, int precio):base(modelo,precio)
             {
@@ -43,7 +43,7 @@ namespace lab3poo195287643
          public class Moto: Vehiculo
         {
             string licenciareq;
-            string patente;
+            public string patente;
 
             public Moto(string licenciareq,string patente, string modelo, int precio):base(modelo,precio)
             {
@@ -54,7 +54,7 @@ namespace lab3poo195287643
          public class Camion: Vehiculo
         {
             string licenciareq;
-            string patente;
+            public string patente;
 
             public Camion(string licenciareq,string patente, string modelo, int precio):base(modelo,precio)
             {
@@ -64,7 +64,7 @@ namespace lab3poo195287643
          public class Bus: Vehiculo
         {
             string licenciareq;
-            string patente;
+            public string patente;
 
             public Bus(string licenciareq,string patente, string modelo, int precio):base(modelo,precio)
             {
@@ -75,7 +75,7 @@ namespace lab3poo195287643
        public class MaquinariaP: Vehiculo
         {
             string licenciareq;
-            string patente;
+            public string patente;
             string tipo;
 
             public MaquinariaP(string tipo, string licenciareq,string patente, string modelo, int precio):base(modelo,precio)

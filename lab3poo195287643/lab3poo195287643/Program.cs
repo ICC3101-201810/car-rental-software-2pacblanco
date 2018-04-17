@@ -36,14 +36,19 @@ namespace lab3poo195287643
                 {
                     if (c.nombresuc == sucursalita)
                     {
-                        Console.Write("Ingrese el modelo de el auto requerido: \n");
-                        string modelo1= Console.ReadLine();
-                        foreach(Vehiculo car in c.Getcatalogo)
+                        Console.Write("Ingrese la patente de su vehiculo requerido: \n");
+                        string patente= Console.ReadLine();
+                        foreach (Vehiculo.Auto car in c.catalogo)
                         {
-                            if (car.modelo== modelo1)  
+                            if(car.patente== patente)
                             {
-
-                            }                               
+                                Console.Write("wena");
+                            }
+                            else
+                            {
+                                Console.Write("patente no existe");
+                                break;
+                            }
                         }
 
                     }
