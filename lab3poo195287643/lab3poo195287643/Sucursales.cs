@@ -27,7 +27,7 @@ namespace lab3poo195287643
             {
                 int posicionAuto=catalogo.Length-stockmax;
                 catalogo[posicionAuto]= vehiculo;
-                vacantes--;
+                stockmax--;
                 return true;
             }
             else return false;

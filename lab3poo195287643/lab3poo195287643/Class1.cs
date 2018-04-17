@@ -8,8 +8,8 @@ namespace lab3poo195287643
 {
     public class Arriendo
     {
-        List<Sucursal> sucursales;
-        List<Cliente> clientes;
+        public List<Sucursal> sucursales;
+        public List<Cliente> clientes;
 
         public Arriendo()
         {
